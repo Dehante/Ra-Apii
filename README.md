@@ -413,7 +413,7 @@ const Ra = require('ra-api')
 
 (async () => {
 	const querry = 'celana dalam'
-	await Ra.Shoope (querry).then(
+	await Ra.Shoope (querry, 50).then(
 		res => console.log(res)
 	)
 })()
