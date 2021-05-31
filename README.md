@@ -314,6 +314,137 @@ const Ra = require('ra-api')
 })()
 ```
 
+- To Video
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	await Ra. ToVid(path).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- FB DOWNLOADER
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	await Ra. fbDownloader(url).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Speed video
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const path = './path'
+	const speed = '2.0'
+	await Ra.SpeedVid(path, speed).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- reverse video
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	// audio = true/ false
+	const path = './path'
+	await Ra.ReverseVid (path, true).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- GSM Arena
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const querry = 'samsung'
+	await Ra.GSMArena (querry).then(
+		res => console.log(res)
+	)
+})()
+``
+
+
+- Zodiak Mingguan
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const querry = 'taurus'
+	await Ra.zodiakMing (querry).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Zodiak Harian
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const querry = 'taurus'
+	await Ra.zodiakHar (querry).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Shoope
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const querry = 'celana dalam'
+	await Ra.Shoope (querry).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Pinterest
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const querry = 'dubu twice'
+	await Ra.pinterest (querry).then(
+		res => console.log(res)
+	)
+})()
+```
+
+- Tiktok downloader
+
+```
+const Ra = require('ra-api')
+
+(async () => {
+	const link = 'https://vt.tiktok.com/ZSJuyCbhv/%60'
+	await Ra.TiktokDown (link).then(
+		res => console.log(res)
+	)
+})()
+```
+
 ## thank you for visiting
 * [`INSTAGRAM`](https://www.instagram.com/rayyreall/) 
 * [`PAYPAL`](https://www.paypal.me/rayyreall) 

@@ -21,7 +21,18 @@ const {
 	uploadFile,
 	ytPlay,
 	igDownloader,
-	ssstik_io
+	ssstik_io,
+	photoManipulation,
+	ToVid,
+	fbDownloader,
+	SpeedVid,
+	ReverseVid,
+	GSMArena,
+	zodiakMing,
+	zodiakHar,
+	Shoope,
+	pinterest,
+	TiktokDown
 } = require('./lib')
 
 exports.RandomCerpen = RandomCerpen
@@ -47,3 +58,14 @@ exports.uploadFile =  uploadFile
 exports.ytPlay = ytPlay
 exports.igDownloader = igDownloader
 exports.ssstik_io =  ssstik_io
+exports.photoManipulation = photoManipulation
+exports.ToVid = ToVid
+exports.fbDownloader = fbDownloader
+exports.SpeedVid = SpeedVid
+exports.ReverseVid = ReverseVid
+exports.GSMArena = GSMArena
+exports.zodiakMing = zodiakMing
+exports.zodiakHar = zodiakHar
+exports.Shoope = Shoope
+exports.pinterest = pinterest
+exports.TiktokDown = TiktokDown
