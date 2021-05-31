@@ -355,10 +355,10 @@ const Ra = require('ra-api')
 - reverse video
 
 ```
+(audio set true or false)
 const Ra = require('ra-api')
 
 (async () => {
-	// audio = true/ false
 	const path = './path'
 	await Ra.ReverseVid (path, true).then(
 		res => console.log(res)
@@ -377,7 +377,7 @@ const Ra = require('ra-api')
 		res => console.log(res)
 	)
 })()
-``
+```
 
 
 - Zodiak Mingguan
